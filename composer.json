@@ -1,0 +1,19 @@
+{
+    "name": "nick/rxmg_app",
+    "authors": [
+        {
+            "name": "Nick Kiermaier",
+            "email": "nickKiermaier@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+           "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+            "psr-4": {
+                "rxmg\\app\\": "src/",
+                "rxmg\\test\\": "test/"
+            }
+    }
+}
