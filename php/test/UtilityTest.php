@@ -2,10 +2,8 @@
 
 require( __DIR__ . '/../vendor/autoload.php' );
 
-
 use PHPUnit\Framework\TestCase;
 use rxmg\app\Utility;
-
 
 class UtilityTest extends TestCase
 {
